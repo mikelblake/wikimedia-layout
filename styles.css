@@ -1,1 +1,54 @@
+* {
+	box-sizing: border-box;
+}
 
+.wrapper {
+	margin: 100px;
+}
+
+.rightit {
+	text-align: right;
+}
+
+.container {
+	display: flex;
+	height: 700px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.flex-child {
+	width: 135px;
+  height: 155px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+footer {
+	text-align: center;
+	width: 70%;
+	margin: 10px auto;
+	border-top: 1px solid #AAA;
+	font: 13px sans-serif;
+}
+
+footer ul li {
+	display: inline;
+	padding: 0;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+ul {
+	display: inline;
+	padding: 0;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
